@@ -1,0 +1,18 @@
+<model-viewer src="aqua.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" animation-name="rotate_action" camera-orbit="39.86deg 68.49deg 0.8858m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 8544 8545 8543 0.211 0.622 0.166" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">head</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="1 0 2223 2157 2158 0.540 0.191 0.268" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">handle</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-surface="2 0 1056 1057 1058 0.578 0.283 0.139" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">body</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
